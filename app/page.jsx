@@ -1,8 +1,12 @@
 import React from "react";
-import EmpList from "./components/EmpList";
+
 
 const Home = () => {
-  return <EmpList/>;
+  return (
+    <div>
+      Home
+    </div>
+  );
 };
 
 export default Home;

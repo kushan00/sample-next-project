@@ -11,6 +11,9 @@ const Header = () => {
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
+              <Link href="/honeymoonpages/home">Honeymoon Home</Link>
+            </li>
+            <li>
               <Link href="/employee">Employee List</Link>
             </li>
             <li>

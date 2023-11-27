@@ -26,7 +26,7 @@ const Slider = ({Navigation , data}) => {
             <div className="sm:w-80 p-4 w-72 text-center sm:text-left mx-auto">
               <div
                 className="w-full h-64 border rounded-lg"
-                style={{ backgroundImage: item.Image[1] }}
+                style={{ backgroundImage: item.Image }}
                 alt="Banner Image"
               ></div>
               <div className="py-6">

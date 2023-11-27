@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
         <div class="navbar-bottom" style={{ backgroundColor: "white", width: '1440px', height: '80px', position:'absolute', top:'50px'}}>
             <div style={{position: 'absolute', left:'96px', }}>
-                <Image src="/honeymoonslklogo.png" alt="Honeymoon Logo" width={217} height={53}/>
+                <Image src="/images/honeymoonslklogo.png" alt="Honeymoon Logo" width={217} height={53}/>
             </div>
             <p style={{color:'#6E6E6E', position: 'absolute', left:'830px', fontSize:'14px' }}>Sceneries</p>
             <p style={{color:'#6E6E6E', position: 'absolute', left:'944px', fontSize:'14px' }}>Places to stay</p>

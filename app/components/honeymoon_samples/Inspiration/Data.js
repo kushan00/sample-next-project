@@ -3,7 +3,7 @@ export const Data = [
   {
     
     ID: 1,
-    Image:"../../../../public/images/Image-8.png",
+    Image:"url('/images/Image-8.png')",
     Collection: "Wild Collection",
     Name: "Uga Jungle Beach ",
     StartingPrice:'10,000 LKR',
@@ -13,7 +13,7 @@ export const Data = [
 {
  
     ID: 2,
-    Image:"../../../../public/images/Image-8.png",
+    Image:"url('/images/Image-8.png')",
     Collection: "Wild Collection",
     Name: "Uga Jungle Beach ",
     StartingPrice:'10,000 LKR',
@@ -23,7 +23,7 @@ export const Data = [
 {
  
     ID: 3,
-    Image:"../../../../public/images/Image-8.png",
+    Image:"url('/images/Image-8.png')",
     Collection: "Wild Collection",
     Name: "Uga Jungle Beach ",
     StartingPrice:'10,000 LKR',
@@ -33,7 +33,7 @@ export const Data = [
 {
   
     ID: 4,
-    Image:"../../../../public/images/Image-8.png",
+    Image:"url('/images/Image-8.png')",
     Collection: "Wild Collection",
     Name: "Uga Jungle Beach ",
     StartingPrice:'10,000 LKR',
@@ -43,7 +43,7 @@ export const Data = [
 {
  
     ID: 5,
-    Image:"../../../../public/images/Image-8.png",
+    Image:"url('/images/Image-8.png')",
     Collection: "Wild Collection",
     Name: "Uga Jungle Beach ",
     StartingPrice:'10,000 LKR',
@@ -53,7 +53,7 @@ export const Data = [
 {
   
     ID: 6,
-    Image:"../../../../public/images/Image-8.png",
+    Image:"url('/images/Image-8.png')",
     Collection: "Wild Collection",
     Name: "Uga Jungle Beach ",
     StartingPrice:'10,000 LKR',

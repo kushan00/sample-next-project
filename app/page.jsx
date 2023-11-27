@@ -1,10 +1,11 @@
 import React from "react";
+import Coverphoto from "./components/coverphoto/coverphoto";
 
 
 const Home = () => {
   return (
     <div>
-      Home
+      <Coverphoto/>
     </div>
   );
 };

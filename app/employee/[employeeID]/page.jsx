@@ -25,24 +25,24 @@ export default async function Employee({ params }) {
   const emp = await getEmp();
 
   return (
-    <div class="bg-gray-800 text-white p-4 rounded-md">
-      <h1 class="text-2xl font-bold mb-4">Employee Details</h1>
-      <div class="border border-gray-600 p-4 rounded-md">
-        <div class="mb-2">
-          <label class="text-gray-400">Employee ID</label>
-          <span class="ml-2">{emp.id}</span>
+    <div className="bg-gray-800 text-white p-4 rounded-md">
+      <h1 className="text-2xl font-bold mb-4">Employee Details</h1>
+      <div className="border border-gray-600 p-4 rounded-md">
+        <div className="mb-2">
+          <label className="text-gray-400">Employee ID</label>
+          <span className="ml-2">{emp.id}</span>
         </div>
-        <div class="mb-2">
-          <label class="text-gray-400">Employee Name</label>
-          <span class="ml-2">{emp.employee_name}</span>
+        <div className="mb-2">
+          <label className="text-gray-400">Employee Name</label>
+          <span className="ml-2">{emp.employee_name}</span>
         </div>
-        <div class="mb-2">
-          <label class="text-gray-400">Employee Salary</label>
-          <span class="ml-2">{emp.employee_salary}</span>
+        <div className="mb-2">
+          <label className="text-gray-400">Employee Salary</label>
+          <span className="ml-2">{emp.employee_salary}</span>
         </div>
-        <div class="mb-2">
-          <label class="text-gray-400">Employee Age</label>
-          <span class="ml-2">{emp.employee_age}</span>
+        <div className="mb-2">
+          <label className="text-gray-400">Employee Age</label>
+          <span className="ml-2">{emp.employee_age}</span>
         </div>
       </div>
     </div>

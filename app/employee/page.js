@@ -25,7 +25,7 @@ export default async function Employee() {
   const emp = await getEmps();
 
   return (
-    <div>
+    <div className="m-10 items-center">
       <div>
         <div className="overflow-x-auto">
           <table className="table table-xs">
